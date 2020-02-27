@@ -1,0 +1,69 @@
+.first{
+    background-image:url('/assets/BG.png');
+    background-size: cover;
+    width:auto;
+    height:auto;
+}
+.first .topleft {
+    position: absolute;
+    text-align: left;
+    padding:30px;
+    display:block;
+  }
+  .first .topleft img{
+      height:20px;
+    width:124x;
+  }
+  .first .topright{
+      position: absolute;
+      text-align: right;
+      padding:30px;
+  }
+   #white{
+      color:white;
+      text-transform: uppercase;
+  }
+  #red{
+      color:red;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+  }
+  p{
+      color:white;
+      text-align: center;
+  }
+  #frame{
+      background-image: url('/assets/scroll_icon_parent.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      text-align: center;
+      width: 38px;
+      height: 50px;
+      display: block;
+      margin-left:auto;
+      margin-right:auto;
+      margin-bottom:50px;
+  }
+  .center{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  #frame > img{
+    position:relative;
+    top:-14px;
+    right:-1px;
+    animation:float 1.5s ease-in-out infinite;
+  }
+
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

@@ -1,0 +1,48 @@
+.margins{
+    margin:80px 0px;
+}
+.section-heading{
+    text-align: center;
+}
+.section-heading h1{
+    text-align: center;
+    color:#3f3f3f;
+    font-size:45px;
+    font-weight: 500;
+}
+.progress-bar-container{
+    text-align: center;
+}
+.process-bar{
+    display: inline-block;
+    width:30px;
+    height:2px;
+    background-color:#b8b8b8;
+}
+.processP{
+    color:#838383;
+    margin-top:10px;
+    padding:0 16px;
+}
+.process_circles{
+    width:100%;
+    height:auto;
+    margin:10px 0px 20px 0px;
+    padding:0 5px;
+}
+.headings_text{
+    margin:10px;
+    text-align:left;
+}
+.headings_text h6{
+    font-weight: 800;
+    color:#3f3f3f;
+    font-size:10px;
+    text-transform: uppercase;
+}
+.headings_text p{
+    font-weight: light;
+    color: #3f3f3f;
+    font-size:10px;
+    text-align:left;
+}
